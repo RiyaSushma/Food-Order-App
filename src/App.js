@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useEffect} from 'react';
+import Home from './screens/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './screens/Login';
+import Signup from './screens/Signup';
+import { StateProvider } from './context';
+import Add_to_Cart from './screens/Add_to_Cart';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (    
+      <StateProvider>
+        <Router>
+          <div>
+            <Routes>
+              <Route exact path="/" element={<Home/>}></Route>
+              <Route exact path="/login" element={<Login/>}></Route>
+              <Route exact path="/signup" element={<Signup></Signup>}></Route>
+              <Route exact path="/add_to_cart" element={<Add_to_Cart></Add_to_Cart>}></Route>
+            </Routes>
+          </div>
+        </Router>
+      </StateProvider>
+
   );
 }
 

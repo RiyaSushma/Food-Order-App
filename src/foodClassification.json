@@ -1,0 +1,17 @@
+[
+    {
+        "CategoryName": "Pizza" 
+    },
+    {
+        "CategoryName": "Starter"
+    },
+    {
+        "CategoryName": "Biryani/Rice"
+    },
+    {
+        "CategoryName": "Burger"
+    }, 
+    {
+        "CategoryName": "Salad"
+    }
+]

@@ -1,0 +1,150 @@
+#navbar {
+    background-color: #318CE7;
+    display: flex;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+}
+
+#navbar a img {
+    height: 45px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.home__img {
+    width: 25px;
+    position: relative;
+}
+
+.home__img:hover {
+    transform: translateY(10px);
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#navbar ul li a:hover {
+    color: red;
+    border-radius: 25%;
+}
+
+/* #navbar ul li.button-home {
+    margin-left: auto;
+} */
+
+.home__button-icon a {
+    margin-left: 5px;
+    /* position: absolute; */
+}
+
+/* #navbar ul li.button-home button {
+    justify-content: space-between;
+    border: none;
+    background-color: white;
+    color: #318CE7;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+/* #navbar ul li.button-home button:hover {
+    color: red;
+    border-radius: 25%;
+} */
+
+.button-home {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.login_button:hover {
+    color: red;
+}
+
+.signup_button a:hover {
+    color: red;
+}
+
+/* .signup_button {
+    color: "white";
+    text-decoration: "none"; 
+    font-size: "18px"; 
+    font-family: 'Verdana'; 
+    font-weight: "500";
+} */
+
+
+.logout_button {
+    /* position: absolute; */
+    color: white;
+    background-color: #318CE7;
+    border: none;
+    height: 40px;
+}
+
+.Item_add_button {
+    /* position: absolute; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+    margin: 0% auto;
+    text-decoration: none;
+}
+
+
+.logout_button:hover {
+    background-color: red;
+}
+
+.home_button_data a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+.home_button_data a:hover {
+    color: red;
+}
+
+.cart_button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 73px;
+    height: 2.5rem;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.cart_button h5 {
+    margin: -0.35rem 0%;
+    color: #318CE7;
+}

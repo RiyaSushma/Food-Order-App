@@ -1,0 +1,90 @@
+[
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Veg Briyani", 
+        "img": "https://images.pexels.com/photos/7394819/pexels-photo-7394819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "options":[
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "Veg Biryani is a special celebration meal that most of us love. Veg Biryani is loaded with aromatic spices, veggies, herbs etc making it flavorful, exotic & delicious main course meal and hence always a crowd pleaser. Veg Biryani is served with raita or gravy and is commonly prepared in weekends & for special occasions."
+    },
+    {
+        "CategoryName": "Salad",
+        "name": "Greek Salad", 
+        "img": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "options": [
+            {
+                "half": "150",
+                "full": "220"
+            }
+        ],
+        "description": "Greek salad consists of sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese. This classic combination is delicious, so I stick to it, just adding a handful of mint leaves for a fresh finishing touch."
+    },
+    {
+        "CategoryName": "Pizza",
+        "name": "Forest Hill", 
+        "img": "https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg",
+        "options": [
+            {
+                "regular": "70",
+                "medium": "150",
+                "large": "300" 
+            }
+        ], 
+        "description": "Cheesy pizza loaded with your favorite veggies like mushrooms, green and black olives, broccoli, carrot, capsicum, tomato, onion"
+    },
+    {
+        "CategoryName": "Burger", 
+        "name": "Veggie Burger",
+        "img": "https://i.pinimg.com/564x/c9/4a/ff/c94affe6bcb9fbf7d3508ba98977a1d1.jpg",
+        "options": [
+            {
+                "regular": "40",
+                "medium": "70",
+                "large": "140"
+            }
+        ],
+        "description": "An exotic burger made with beans, chickpeas, lentils, tofu, tempeh, quinoa and a mix of different vegetables."
+    }, 
+    {
+        "CategoryName": "Pizza", 
+        "name": "The True Italian Pizza: Neapolitan",
+        "img": "https://www.chefspencil.com/wp-content/uploads/Neapolitan-Pizza-960x960.jpg.webp",
+        "options": [
+            {
+                "regular": "40",
+                "medium": "70",
+                "large": "140"
+            }
+        ],
+        "description": "Neapolitan pizza has a thin, crispy yet fluffy light crust. Its not made to handle a lot of toppings, just a couple of light toppings and it/’s good to go. Extra info: Did you know Neapolitan pizza is so thin you need a knife and fork to eat it? And did you know a pizza so thin and light is cooked in less than two minutes? Yum!"
+    }, 
+    {
+        "CategoryName": "Pizza",
+        "name": "The Sicilian Pizza", 
+        "img": "https://www.chefspencil.com/wp-content/uploads/Sicilian-Pizza-960x720.jpg.webp",
+        "options":[
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "La Siciliana, also known as sfincione (thick sponge) has a thick, extra fluffy crust with a crunchy exterior."
+    }, 
+    {
+        "CategoryName": "Burger",
+        "name": "Portobello mushroom burger", 
+        "img": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/Original_11365_portobello-burger.jpg",
+        "options":[
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "Substituting the meat patty for a delicious, meaty, umami-packed grilled portobello mushroom will give you a vegan burger that will satisfy even the hungriest carnivore. Add mango and beansprouts for a fresh contrast of texture and flavour."
+    }
+]
+

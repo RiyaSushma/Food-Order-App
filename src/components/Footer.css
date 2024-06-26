@@ -1,0 +1,49 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.footer-block {
+    display: inline-flex;
+    margin-left: 20px;
+    color: gray;
+    padding: 20px 20px;
+    font-size: 24px;
+    gap: 70px;
+}
+
+.footer-block a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.company ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+
+.contact ul {
+    margin: 5px;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.legal ul {
+    margin: 5px;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-block span {
+    font-size: 15px;
+}

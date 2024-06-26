@@ -1,0 +1,109 @@
+.Item_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem !important;
+    margin-left: 5%;
+    width: 300px !important;
+    height: 500px !important;
+    border: solid 3px black;
+    background-color: white;
+    vertical-align: top;
+    margin-right: 35px;
+    position: relative;
+}
+
+.Item_img {
+    width: 292px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 0;
+}
+
+.Item_body {
+    margin-left: 3px;
+    color: black;
+    font-size: 25px;
+}
+
+.Item_info {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: auto;
+    align-self: flex-end;
+    /* align-items: center; */
+    gap: 12px !important;
+    /* margin-bottom: 0; */
+}
+
+.Item_header {
+    height: auto;
+}
+
+.Item_name {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 25px;
+    line-height: 1;
+}
+
+.Item_text {
+    font-size: 15px;
+    font-family: 'Arial Narr';
+    text-align: justify;
+    margin: auto 10px 0px 10px;
+    align-self: flex-end;
+    height: 100px;
+    overflow-x: scroll;
+}
+
+.Item_info select {
+    width: auto;
+    height: 42px;
+    font-size: 16px;
+    background-color: #318CE7;
+    font-weight: bold;
+    margin-top: 0;
+    /* align-content: stretch; */
+    margin-top: 10px;
+}
+
+.Item_Price  {
+    color: black;
+    font-size: 16px;
+    width: auto;
+    align-content: stretch;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.Item_quantity {
+    width: auto !important;
+    max-width: 110px !important;
+}
+
+.Item_add_button {
+    background-color: #318CE7 !important;
+    align-self: flex-end;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+    width: 290px;
+    font-weight: bold;
+    margin: 0 !important;
+    margin-bottom: 1px !important;
+}
+.Item_add_button img {
+    height: 17px;
+}
+
+.Item_add_button:hover {
+    background-color: red;
+}
+
+.Item_info_container {
+    position: absolute;
+    bottom: 2%;
+    margin-top: auto;
+    align-items: flex-end;
+}
